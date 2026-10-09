@@ -49,7 +49,7 @@ If the task type or prompt is missing, state what additional context is needed. 
 Student writing:
 ${essay}`;
 
-      const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+      const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct-fast", {
         messages: [
           { role: "system", content: "You are an IELTS writing tutor. Never claim to be an official IELTS examiner. Avoid fabricating a score." },
           { role: "user", content: prompt }
