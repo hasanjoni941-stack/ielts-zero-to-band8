@@ -5,7 +5,7 @@ This repository is hosted on GitHub Pages. GitHub Pages is static hosting, so **
 ## What is included
 - `../ai-tutor.html`: writing tutor page with AI feedback UI and an offline checklist fallback.
 - `index.js`: Cloudflare Worker endpoint at `POST /api/feedback`.
-- Model: `@cf/meta/llama-3.1-8b-instruct`.
+- Model: `@cf/meta/llama-3.1-8b-instruct-fast`.
 - CORS is restricted to `https://hasanjoni941-stack.github.io`.
 - Input length is limited to 8,000 characters.
 
